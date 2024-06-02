@@ -3,4 +3,4 @@ SELECT AVG(grades.grade)
 FROM grades
 JOIN subjects ON grades.subject_id = subjects.subject_id
 JOIN teachers ON subjects.teacher_id = teachers.teacher_id
-WHERE teachers.name = 'Ruth Carlson';
+WHERE teachers.name = 'Michael Caldwell';

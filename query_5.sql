@@ -2,4 +2,4 @@
 SELECT subjects.name
 FROM subjects
 JOIN teachers ON subjects.teacher_id = teachers.teacher_id
-WHERE teachers.name = 'Sarah Hutchinson';
+WHERE teachers.name = 'Diane Miller';
